@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Samet SAHIN"
-  avatar           : "pp.jpeg"
+  avatar           : "new-pp.jpeg"
   bio              : "Bug Hunter | Web Application Security Researcher"
   location         : "Turkey"
   employer         :
   googlescholar    : #"https://yourfullgooglescholarurl.com"
-  email            : "sametsahin.xss@gmail.com"
+  email            : "sametsahinnet@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
