@@ -38,7 +38,6 @@ Volunteering Experience
 
 Skills
 ======
-**Technical**
 * Ethical Hacking
   * Information Security
   * Bug Bounty
@@ -50,11 +49,11 @@ Skills
 
 Talks Given
 ======
-* Bug Bounty 101 at Bilkent University (2018)
-* CRLF Injection at TOBB Education and Technology University (2019)
-* Bug Bounty Uygulamaları ve Dünyada Bug Bounty at TOBB Education and Technology University (2019)
-* Bug Bounty ve Web Uygulama Güvenliği at BTK (Hacknights) (2019)
-* Introduction to Bug Bounty at Cankaya University (2019)  
 
+* Introduction to Bug Bounty at Cankaya University (2019)  
+* Bug Bounty ve Web Uygulama Güvenliği at BTK (Hacknights) (2019)
+* Bug Bounty Uygulamaları ve Dünyada Bug Bounty at TOBB Education and Technology University (2019)
+* CRLF Injection at TOBB Education and Technology University (2019)
+* Bug Bounty 101 at Bilkent University (2018)
 
  
