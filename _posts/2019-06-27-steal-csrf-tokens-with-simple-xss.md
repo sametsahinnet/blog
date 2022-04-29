@@ -1,5 +1,5 @@
 ---
-title: 'TR \| Steal CSRF Tokens with an XSS'
+title: 'TR \| XSS ile CSRF Tokenlerini Ele Geçirme'
 date: 2019-06-27
 permalink: /posts/steal-csrf-tokens-with-an-xss/
 tags:
@@ -13,12 +13,8 @@ tags:
   - write-up
   - poc
   - vulnerability
-excerpt: 'Steal CSRF Tokens with an XSS'
+excerpt: 'XSS ile CSRF Tokenlerini Ele Geçirme'
 ---
-
-Merhaba,  
-Ben Samet ŞAHİN.  
-İki yıldan biraz uzun süredir *Bug Bounty* ile ve toplamda yaklaşık dört yıldır da *Web Uygulama Güvenliği* alanında çalışmalar yürütmekteyim. 
 
 *Bug Hunterlar* olarak biz, Bug Bounty ile uğraşırken pek çok farklı sistem ve farklı güvenlik önlemleri görüyoruz. Amacımız güvenli (gözüken) sistemlerde (gerçek ve etkisi olan) açıklar bulup, onları şirketlere bildirmektir. 
 
