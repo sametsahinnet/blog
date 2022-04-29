@@ -1,15 +1,11 @@
 ---
-title: 'TR \| Interviews'
+title: 'EN \| Interviews'
 date: 2018-01-01
 permalink: /posts/interviews/
 tags:
-  - hack
   - bugbounty
-  - sahin
-  - şahin
-  - samet
-  - Samet ŞAHİN
-excerpt: 'TR \| Interviews'
+  - Samet SAHIN
+excerpt: 'EN \| Interviews'
 ---
 **Listelist :**  
 [https://listelist.com/samet-sahin-kimdir-bug-bounty/](https://listelist.com/samet-sahin-kimdir-bug-bounty/)
