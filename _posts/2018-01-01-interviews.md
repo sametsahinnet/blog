@@ -1,11 +1,11 @@
 ---
-title: 'EN \| Interviews'
+title: 'Interviews & Public Talks'
 date: 2018-01-01
 permalink: /posts/interviews/
 tags:
   - bugbounty
   - Samet SAHIN
-excerpt: 'EN \| Interviews'
+excerpt: 'Interviews & Public Talks'
 ---
 **Listelist :**  
 [https://listelist.com/samet-sahin-kimdir-bug-bounty/](https://listelist.com/samet-sahin-kimdir-bug-bounty/)
