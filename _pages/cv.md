@@ -11,29 +11,29 @@ redirect_from:
 
 Education
 ======
-* Bilkent University, Information Systems and Technologies (CTIS), 2021
+* Bilkent University, Information Systems and Technologies (CTIS), 2021 ~ Present 
 
 
 
 Work experience
 ======
 
-* March 2017 ~ : Hackerone [Profile](https://hackerone.com/samet)
+* March 2017 ~ Present : Hackerone [Profile](https://hackerone.com/samet)
   - Bug Hunter
 
-
-* May 2017 ~ : Bugcrowd [Profile](https://bugcrowd.com/samet)
+* May 2017 ~ July 2019: Bugcrowd [Profile](https://bugcrowd.com/samet)
   - Bug Hunter
 
 
 
 Volunteering Experience
 ======
-* September 2018 ~ :  [Exploit Studio](http://exploit.studio/)
+* October 2021 ~ Present :  [Exploit Studio Bilkent](https://bais.bilkent.edu.tr/student-clubs-management/club/BLGGT/detail)
+  - Chairperson
+* February 2021 ~ Present :  [findhunters](https://findhunters.com/)
+  - Founder
+* September 2018 ~ Present :  [Exploit Studio](http://exploit.studio/)
   - Team Member
-* February 2021 ~ :  [findhunters](https://findhunters.com/)
-  - Creator
-
 
 
 Skills
@@ -48,7 +48,7 @@ Skills
 
 
 
-Given Talks
+Talks Given
 ======
 * Bug Bounty 101 at Bilkent University (2018)
 * CRLF Injection at TOBB Education and Technology University (2019)
