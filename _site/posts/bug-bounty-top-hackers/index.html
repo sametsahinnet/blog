@@ -1,0 +1,760 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>What do the top bug hunters find? &gt; Samet SAHIN</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Samet SAHIN">
+<meta property="og:title" content="What do the top bug hunters find?">
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/bug-bounty-top-hackers/">
+  <meta property="og:url" content="http://localhost:4000/posts/bug-bounty-top-hackers/">
+
+
+
+  <meta property="og:description" content="Bug Bounty Ecosystem - Recommendations to bug bounty hunters and analysis of public year-in-reviews on HackerOne.">
+
+
+
+  <meta name="twitter:site" content="@sametsahinnet">
+  <meta name="twitter:title" content="What do the top bug hunters find?">
+  <meta name="twitter:description" content="Bug Bounty Ecosystem - Recommendations to bug bounty hunters and analysis of public year-in-reviews on HackerOne.">
+  <meta name="twitter:url" content="http://localhost:4000/posts/bug-bounty-top-hackers/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2021-03-06T00:00:00+00:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Samet SAHIN",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Samet SAHIN Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+
+<meta http-equiv="cleartype" content="on">
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">Samet SAHIN</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/">Home</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/blog/">Blog</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="http://localhost:4000/images/new-pp.jpeg" class="author__avatar" alt="Samet SAHIN">
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Samet SAHIN</h3>
+    <p class="author__bio">Bug Hunter | Web Application Security Researcher</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Turkey</li>
+      
+      
+      
+      
+        <li><a href="mailto:sametsahinnet@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+      
+      
+       
+      
+        <li><a href="https://twitter.com/sametsahinnet"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+      
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/sametsahinnet"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/sametsahinnet"><i class="fab fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="What do the top bug hunters find?">
+    <meta itemprop="description" content="Bug Bounty Ecosystem - Recommendations to bug bounty hunters and analysis of public year-in-reviews on HackerOne.">
+    <meta itemprop="datePublished" content="March 06, 2021">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">What do the top bug hunters find?
+</h1>
+          
+        
+        
+        
+          <p class="page__meta">
+            March 06, 2021
+          </p>
+
+        
+        
+             
+        
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <style type="text/css">
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 80px auto;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+</style>
+
+<h2 id="the-reason-of-the-analysis"><strong>The reason of the analysis</strong></h2>
+<p>There are many successful bug hunters on the bug bounty platforms and most beginners want to achieve that level of success however settle for low impact findings as they aim to find vulnerabilities using certain methods. For most beginners, a better approach would be to analyze what the top bug hunters find and how to build on top of the know-how and the methods used by bug hunters of more experience. This is why I decided to make a simple analysis with the public “2019 Year in Reviews” and “2020 Year in Reviews” then, I interpreted the results. The analysis is based on the top 1000 hackers who have public reviews (2019) and the top 100 hackers who have public reviews (2020). The results are not the data of all users of the bug bounty platforms.</p>
+
+<p><br /></p>
+<h1 id="results-of-the-analysis">Results of the analysis</h1>
+
+<style type="text/css">
+	.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 0px solid #fff;
+}  
+
+.flex-child:first-child {
+    margin-right: 5px;
+} 
+</style>
+
+<p><b>The most reported vulnerabilities:</b></p>
+<div class="container flex-container">
+  <div class="flex-child" id="chart1"></div>
+  <div class="flex-child" id="chart2"></div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/1.4.6/apexcharts.min.js"></script>
+
+<script id="INLINE_PEN_JS_ID">
+    var options = {
+  series: [1105, 836, 586, 538, 521, 497,  211, 170, 136, 500],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:"2019",
+  	align:"center",
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Cross-Site Scripting (XSS)','Information Disclosure', 'Privilege Escalation', 'Improper Access Control', 'IDOR', 'Improper Authentication', 'Open Redirect', 'CSRF', 'SSRF', 'Others'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector("#chart1"), options);
+chart.render();
+</script>
+
+<script id="INLINE_PEN_JS_ID">
+    var options = {
+  series: [1210, 823, 720, 466, 447, 412, 366, 75, 70, 70, 61, 58, 56, 51, 140],
+  chart: {
+    width: 400,
+    type: 'pie' }, 
+  title: {
+  	text:"2020",
+  	align:"center",
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+  labels: ['Cross-Site Scripting (XSS)','Information Disclosure', 'Improper Authentication', 'Improper Access Control', 'IDOR', 'Privilege Escalation', 'Information Exposure Through an Error Message', 'Open Redirect', 'Path Traversal', 'Server-Side Request Forgery', 'SQL Injection', 'Cross-Site Request Forgery (CSRF)', 'Violation of Secure Design Principles', 'Improper Authorization', 'Others'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350
+      } } }] };
+
+var chart = new ApexCharts(document.querySelector("#chart2"), options);
+chart.render();
+  </script>
+
+<h2 id="the-most-reported-bug-xss">The most reported bug: XSS</h2>
+<p>Cross-Site Scripting also known as XSS, is a vulnerability that allows an attacker to <strong>inject HTML and JavaScript</strong> code when the user input is not sanitized. It is the most popular and <strong>number one most reported bug on the bug bounty platforms</strong>. Because it is easy to find, bypass, and exploit. Most of the top bug hunters have custom scanners to find XSS vulnerabilities. If you prefer to find XSS manually, the optimal way to doing that is by looking at the <strong>source code</strong>.</p>
+
+<p>While everyone has their own way of bounty hunting, I have a few suggestions that I would like to share. Making a difference between other researchers and scanners is simple, work to <strong>improve the impact of XSS</strong>. After, write a <strong>working exploit</strong>. For example, if there is a CSRF-token in the response, select the tag which includes the token. Then, write an exploit that submits a password change request with the collected CSRF token. If you are good with <strong>JavaScript</strong>, you can increase the severity from P3 to P2 and even to P1.</p>
+
+<h2 id="all-roads-lead-to-information-disclosures-and-leaks">All roads lead to information disclosures and leaks!</h2>
+<p>Information Disclosure is a collection of non-expected (in some cases, expected) behavior while <strong>securing</strong> sensitive data. There is a lot of types of Information Disclosure issues. Generally, if you see data that you are not supposed to be, there is an information disclosure (leakage, exposure) vulnerability. For example, while <strong>fuzzing</strong> the directories, you may find a file that includes confidential data. Or, while you are visiting a friend’s profile, you may retrieve their <strong>PII (Personally Identifiable Information) in the response</strong>. You can automate all the unauthenticated services to find information disclosures. Remember, the most critical information disclosures are often discovered by understanding the <strong>application logic</strong>.</p>
+
+<h2 id="uid0root-gid0root-groups0root">uid=0(root) gid=0(root) groups=0(root)</h2>
+<p>Privilege Escalation is a weakness that permits attackers to perform an action that they are not authorized to. It occurs in the applications’ workflow. For example, a user may ban the admin from the project, and the system assigns the user as a new admin. In this case, the user could escalate their privileges with the <strong>business logic error in the flow</strong>. The scanners cannot find the issue with the default settings. Thus, the privilege escalations need a <strong>hacker mindset</strong> to find. Most of the top bug hunters read the <em>freaking</em> manual before testing, especially necessary for API security testing. Reading documentation is a <strong>very effective</strong> (and boring) way of understanding how the application works. With this method, you may able to find privilege escalation weaknesses <strong>easily</strong>.</p>
+
+<h2 id="improper-access-control-weaknesses">Improper access control weaknesses</h2>
+<p>Improper Access Control weaknesses occur when the application does not <strong>restrict or incorrectly restricts access to a resource</strong> from an unauthorized actor. For example, a user is not able to access functionality to which they are not authorized, <strong>with a browser</strong>. However, the user can access to the administrative functions <strong>with the API</strong>, without any control or broken controls. This method is a common way to find this weakness. Modern applications prefer client-side mechanisms because it is faster than server-side but at the same time easier to bypass. I suggest you think about the <strong>different access control methods</strong> between the server and the client.</p>
+
+<h2 id="insecure-direct-object-reference">Insecure direct object reference</h2>
+<p>Insecure Direct Object Reference (IDOR) is a type of Broken Access Control vulnerability. The problem occurs when the application does not check a user from <strong>gaining access to another user’s data</strong> by modifying the identity reference. For example, consider a function that accesses the customer page. When you access the page; you see an ID at the query. If a user changes the ID and could get the data of the modified ID, then there is an IDOR vulnerability that leads to horizontal privilege escalation. <strong>There is no limit to this vulnerability</strong>. Mostly if there is an object referenced with an ID, you may find an IDOR there. IDOR is the <strong>favorite vulnerability</strong> of many researchers.</p>
+
+<h2 id="open-redirect">Open redirect</h2>
+<p>Open Redirect is <strong>harmless</strong> in most cases. But that does not mean all instances of open redirect vulnerabilities are harmless. If you have an open redirect at <strong>SSO (Single Sign-On) or Oauth</strong> mechanism, you can <strong>steal the authentication code</strong> of the victim. If you do not want to report a simple open redirect, you can <strong>keep it for an SSRF whitelist bypass or a CSP bypass</strong>. Open Redirect can be a good part of a <strong>bug chain</strong>.</p>
+
+<h2 id="cross-site-request-forgery">Cross-Site request forgery</h2>
+<p>Cross-Site Request Forgery is used by attackers to send malicious requests from an authenticated user to a web application. The problem occurs when the application does not provide an anti-CSRF token or does not control the token for each request. The impact of CSRF <strong>depends on where the vulnerability</strong>. CSRF vulnerability can lead to a <strong>one-click account takeover</strong>. Such as, an attacker can change the password of your Twitter account with a one-click using this vulnerability. CSRF can be part of the turning Self-XSS into Good XSS. <em>Unfortunately</em>, CSRF <strong>started to be killed</strong> by browsers.</p>
+
+<h2 id="ssrf-knock-knock-who-is-there--its-me-169254169254">SSRF: Knock knock who is there? -It’s me, 169.254.169.254</h2>
+<p>Server Side Request Forgery (also known as SSRF) vulnerabilities allows an attacker to send malicious requests from the back-end server of a vulnerable web application. An SSRF vulnerability with the <strong>maximum impact might allow an attacker to read the internal files</strong>. Additionally, with an SSRF, an attacker can <strong>scan ports (XSPA)</strong>, <strong>grab the banners</strong>, execute <strong>XSS</strong> payloads, <strong>bypass host-based authentication controls</strong>. Consider that there is an image fetching function. A user gives the URL, and the server brings the file. <em>“This is not a bug, this is a feature”</em> so far. When the server tries to fetch the given unexpected URL (payload), the SSRF vulnerability occurs. There are some reasons why SSRF vulnerabilities are so popular. Such as, it is easy to exploit, easy to bypass, and easy to improve the impact with the protocols. But it is hard to find a parameter (endpoint) that is vulnerable to SSRF attacks because it needs a function that can send requests with the given input. Earning bounties with the SSRF requires <strong>keeping an eye open</strong> because SSRF vulnerabilities are rare.</p>
+
+<p><br /></p>
+
+<p><b>Submission severity:</b></p>
+<div class="container flex-container">
+  <div class="flex-child" id="chart3"></div>
+  <div class="flex-child" id="chart4"></div>
+
+</div>
+
+<script id="INLINE_PEN_JS_ID">
+    var options = {
+  series: [774, 1765, 3216, 2416],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:"2019",
+  	align:"center",
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Critical', 'High', 'Medium', 'Low'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector("#chart3"), options);
+chart.render();
+ </script>
+
+<script id="INLINE_PEN_JS_ID">
+    var options = {
+  series: [738, 1817, 2757, 2009],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:"2020",
+  	align:"center",
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Critical', 'High', 'Medium', 'Low'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector("#chart4"), options);
+chart.render();
+  </script>
+
+<h2 id="unfortunately-this-was-submitted-previously-by-another-researcher">Unfortunately, this was submitted previously by another researcher.</h2>
+<p>Duplicate reports are the bug hunters’ <strong>nightmare</strong>. Consider that after working for hours, you finally find a vulnerability. You report it and wait for it to be triaged. Then you get an email that says: <em>“Unfortunately, the vulnerability was submitted previously by another researcher.”</em>. As a consequence, <strong>everything goes to another researcher</strong>, <strong>except</strong> one thing: <strong>The experience</strong>. All the experiences that you have, make you a <strong>better researcher</strong>. Yes, it does!</p>
+
+<p>As a result of this analysis, I saw that <strong>an important percentage of reports are duplicate</strong> even for the top 100 researchers. The duplicate is just a warning that says you should <strong>find unique bugs or be faster</strong>. Learn how to live with them, because they will be always there.</p>
+
+<h2 id="urgent-this-bug-is-critical">URGENT!!! This bug is critical!</h2>
+<p>The majority of valid bugs have <strong>Medium or Low</strong> severity. To be honest, if you think the bug hunters <strong>hack</strong> all companies, you should change your understanding of the word “hacking”. In my opinion, finding an Open Redirect bug, not mean hacking the company. Only a minority of valid bugs have <strong>High or Critical</strong> severity. Finding a critical vulnerability depends on a <strong>comprehensive understanding</strong> of how the application works or depends on <strong>unusual techniques</strong>.</p>
+
+<h2 id="signal-and-impact">Signal and Impact</h2>
+<p>In my opinion, the signal and the impact stats is what separates successful hunters from the rest. Keep your signal high with <strong>valid reports</strong>. Then, keep your impact high with the <strong>vulnerability chains</strong>, and focus on <strong>important functions</strong> of the application.</p>
+
+<h2 id="collaboration">Collaboration</h2>
+<p>Sometimes a bug hunter sticks with a vulnerability and usually cannot find a way to exploit or improve the impact. The best thing to do at moments like this is to collaborate. If you are looking for a hunter to collaborate, you can use <a href="https://findhunters.com/">https://findhunters.com/</a></p>
+
+<hr />
+
+<h1 id="the-recipe">The Recipe…</h1>
+<p>My four year experience in bounty hunting has taught me that bug bounty becomes easier with the following recipe:  <br /><br />
+<b style="color:red">Enumeration + Fuzzing + Collaborate + to understand the application = Bounty</b></p>
+<ul>
+  <li><strong>Enumerate</strong>, for finding unusual applications and services.</li>
+  <li><strong>Understand the application</strong>, to find different ways to increase the impact.</li>
+  <li><strong>Collaborate</strong>, for learning from different approaches.</li>
+  <li><strong>Fuzz</strong>, for identifying unusual behaviors of the application.</li>
+</ul>
+
+<p><br /></p>
+
+<p>Thanks for reading.</p>
+
+<hr />
+
+<p><strong>Thanks for their support on this blog post</strong><br />
+Berk Cem Göksel (https://twitter.com/berkcgoksel)<br />
+Evren Yalçın (https://twitter.com/evrnyalcin)   <br />
+Mert Taşçı (https://twitter.com/mertistaken) <br />
+Dr. Süleyman Özarslan (https://twitter.com/su13ym4n)</p>
+
+<p><strong>References</strong><br />
+https://blog.convisoappsec.com/en/privilege-escalation-how-it-can-affect-application-security/
+https://blog.detectify.com/2019/01/10/what-is-server-side-request-forgery-ssrf/
+https://capec.mitre.org/data/definitions/233.html
+https://cwe.mitre.org/data/definitions/284.html
+https://hackerone.com/reports/816143
+https://owasp.org/www-community/attacks/csrf
+https://owasp.org/www-community/attacks/Server_Side_Request_Forgery
+https://portswigger.net/web-security/access-control
+https://portswigger.net/web-security/access-control/idor
+https://portswigger.net/web-security/csrf
+https://portswigger.net/web-security/ssrf
+https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/
+https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/
+https://www.hackerone.com/blog/hackerone-top-10-most-impactful-and-rewarded-vulnerability-types
+https://www.hackerone.com/top-10-vulnerabilities
+https://www.immuniweb.com/vulnerability/improper-access-control.html
+https://www.netsparker.com/blog/web-security/cross-site-scripting-xss/
+https://www.netsparker.com/blog/web-security/information-disclosure-issues-attacks/
+https://www.netsparker.com/blog/web-security/owasp-top-10/
+https://www.netsparker.com/blog/web-security/same-site-cookie-attribute-prevent-cross-site-request-forgery/
+https://www.netsparker.com/blog/web-security/server-side-request-forgery-vulnerability-ssrf/</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#best-bug-hunters" class="page__taxonomy-item" rel="tag">best bug hunters</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#bug-bounty" class="page__taxonomy-item" rel="tag">bug bounty</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#bug-hunter" class="page__taxonomy-item" rel="tag">bug hunter</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#how-to-get-started-in-bug-bounty" class="page__taxonomy-item" rel="tag">How to get started in bug bounty</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#top-researchers" class="page__taxonomy-item" rel="tag">top researchers</a>
+    
+    </span>
+  </p>
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/posts/bug-bounty-top-hackers/" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/bug-bounty-top-hackers/" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/posts/bug-bounty-top-hackers/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
+      <a href="http://localhost:4000/posts/bug-bounty-top-programs/" class="pagination--pager" title="Recommendations to programs from a hunter’s perspective
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      
+        <h4 class="page__related-title">You May Also Enjoy</h4>
+      
+      <div class="grid__wrapper">
+        
+          
+
+
+
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="datePublished" content="March 06, 2021">
+    
+    
+
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/posts/bug-bounty-top-programs/" rel="permalink">Recommendations to programs from a hunter’s perspective
+</a>
+      
+    </h2>
+    
+    
+
+        
+
+    
+    <p class="archive__item-excerpt" itemprop="description"><p>Bug Bounty Ecosystem - Recommendations to bug bounty programs from a bug hunter’s perspective.</p>
+</p>
+    
+    
+    
+
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/sametsahinnet"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="http://github.com/sametsahinnet"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Samet SAHIN. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170519040-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-170519040-1');
+</script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-170519040-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+  </body>
+</html>
+

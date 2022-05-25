@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-25T07:05:11+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Samet SAHIN</title><subtitle>Bug Hunter | Web Application Security Researcher</subtitle><author><name>Samet SAHIN</name><email>sametsahinnet@gmail.com</email></author><entry><title type="html">Recommendations to programs from a hunter’s perspective</title><link href="http://localhost:4000/posts/bug-bounty-top-programs/" rel="alternate" type="text/html" title="Recommendations to programs from a hunter's perspective" /><published>2022-05-25T00:00:00+00:00</published><updated>2022-05-25T00:00:00+00:00</updated><id>http://localhost:4000/posts/bug-bounty-top-programs</id><content type="html" xml:base="http://localhost:4000/posts/bug-bounty-top-programs/">&lt;p&gt;The bug bounty ecosystem consists of three major players: hunters, programs, and platforms. The previous blog post mentions some recommendations for bug hunters. Now, this is time for the other major player: programs.&lt;/p&gt;
+
+&lt;p&gt;The main goal of a bug bounty program is to find skilled hunters to assess their applications, systems, and other types of digital assets. Both to reach their goal and due to their different resources, programs set different policies. Whereas some programs get the hunters’ like with their good policies, some fail and have to end their programs. Here are some key points for becoming a more successful program from a hunter’s perspective:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rewards
+    &lt;ul&gt;
+      &lt;li&gt;Unique rewards&lt;/li&gt;
+      &lt;li&gt;Payments&lt;/li&gt;
+      &lt;li&gt;Promotions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Communications
+    &lt;ul&gt;
+      &lt;li&gt;Clarification of the decisions &amp;amp; Clear policy&lt;/li&gt;
+      &lt;li&gt;Public disclosures&lt;/li&gt;
+      &lt;li&gt;Responsiveness&lt;/li&gt;
+      &lt;li&gt;Treatment&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;rewards&quot;&gt;Rewards&lt;/h1&gt;
+&lt;p&gt;It is not a surprise for rewards to be the most eye-catching thing in an ecosystem, which includes bounty in its name. According to &lt;a href=&quot;https://www.hackerone.com/resources/reporting/the-2021-hacker-report&quot;&gt;HackerOne&lt;/a&gt; and &lt;a href=&quot;https://www.bugcrowd.com/resources/guides/inside-the-mind-of-a-hacker/&quot;&gt;Bugcrowd&lt;/a&gt;’s annual hacker reports, financial gain is one of the hunters’ motivations. Bug bounty programs should set their reward policies consequently.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Unique Rewards&lt;/strong&gt;&lt;br /&gt;
+  Sometimes, regular cash prizes may not be as attractive as the unique rewards. Such rewards as t-shirts, coins, and the company’s own goods may be more interesting for hunters and cost-effective for the programs. Here is a recent example: &lt;a href=&quot;https://app.intigriti.com/programs/redbull/redbull/detail&quot;&gt;Red Bull&lt;/a&gt; received more than 5500 submissions on Intigriti in return for trays of Red Bulls. The more unique rewards a program offers, the more interest the hunters have (usually)!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Payments&lt;/strong&gt;&lt;br /&gt;
+  It is worth recalling that bounty hunting is a freelance job. Most hunters do bug bounties for a living and to pay their bills. Due to the nature of the freelance jobs, their income is inconsistent, and sometimes that inconsistency becomes a problem for the hunters. To not put them in difficult situations and not waste time dealing with the “Where is my bounty, sir?” messages, the programs should pay when the bug is triaged, which is called “Pay at triage”.&lt;/p&gt;
+
+&lt;p&gt;Programs should determine an initial bounty to apply that policy, usually three digits or a fixed percentage of the estimated amount. When the report is triaged, the initial payment should be sent. After the mitigation steps are taken, and the report is resolved, the remaining bounty should be sent to the hunter.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Promotions&lt;/strong&gt;&lt;br /&gt;
+  An excellent way to get the hunters’ attraction in a short period is to run a promotion with increasing rewards. This policy helps programs to receive better and targeted reports. Some programs run promotions on specific types of vulnerabilities to test their recently updated assets, new releases, and recent zero-days. &lt;a href=&quot;https://twitter.com/TheParanoids/status/1473367855194247172&quot;&gt;Yahoo’s promotion&lt;/a&gt; on the recent Log4j vulnerabilities is an ideal example of running specific promotions.&lt;/p&gt;
+
+&lt;p&gt;When it is not beneficial to run promotions on specific vulnerabilities, running a general promotion may be a better option. &lt;a href=&quot;https://www.facebook.com/whitehat/hackerplus/&quot;&gt;Meta’s Hacker Plus Programme&lt;/a&gt; is an excellent example of general promotions: The more a hunter contributes to the program, the more benefits the hunter receives!&lt;/p&gt;
+
+&lt;h1 id=&quot;communications&quot;&gt;Communications&lt;/h1&gt;
+&lt;p&gt;Although the rewards are essential for hunters to choose a program to hack, it is not the only condition. Ineffective communication between the programs and the hunters usually causes unwanted results. Therefore, programs should be straightforward in communication and easy to collaborate with. The below key points may help the programs be the favorite of the hunters, even if their rewards are not the best in the market.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Clarification of the decisions &amp;amp; Clear Policy&lt;/strong&gt;&lt;br /&gt;
+  Imagine a hunter finds a P1 severity vulnerability and reports it immediately with the dream of the bounty in mind. While the hunter is waiting for at least five digits from the program, they decrease the severity to P4 and offer $250 for some uncertain or unacceptable reasons. After some arguments and counterarguments, both parties will be unhappy with the result. Such situations occur primarily because of the programs’ unclear policies and decisions and some hunters’ unprofessional behaviors. Although both parties may be faulty, this blog post is for only the programs, so their role in the issue is examined.&lt;/p&gt;
+
+&lt;p&gt;A program’s policy must include “Dos and Don’ts” very clearly. The policy should also include the reward criteria and clarification of the report’s decisions. A clear policy helps both parties to share their objections and reasons for the report. &lt;a href=&quot;https://shopify.github.io/appsec/cvss_calculator/&quot;&gt;Shopify’s bounty calculator&lt;/a&gt; is an excellent example of this topic. Shopify lets the hunter know the rationale behind the bounty and clarifies every criterion that played a role in the decision.&lt;/p&gt;
+
+&lt;p&gt;Another important field to be careful in the policy is the rules to follow in the hacking process. Suppose a program aims to test only the specific part of their assets or wants to have the hunters follow some restrictions such as VPN usage, some limitations on testing, and the post-exploitation period. In that case, the policy should be set accordingly. As hunters usually do not read the whole policy, putting the important notes under the rewards table may be a good option. &lt;a href=&quot;https://hackerone.com/yahoo&quot;&gt;Yahoo’s program&lt;/a&gt; is an excellent example of having a clear policy.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Public disclosures&lt;/strong&gt;&lt;br /&gt;
+  Disclosing reports is a good way to interact with the global hacking community, as it takes place in the hunters’ feed. Publicly disclosed reports help the inexperienced hunters gain knowledge from a successful hack. Concurrently, they are also beneficial as they create an opportunity for already known contributors to collaborate with the other hunters. HackerOne’s own program is an ideal example as they have a company value named &lt;a href=&quot;https://twitter.com/hacker0x01/status/1072173331896516608&quot;&gt;Default to disclosure!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Responsiveness&lt;/strong&gt;&lt;br /&gt;
+  Bugcrowd’s latest hacker report shows that a responsive team is the most important thing that makes a program attractive. Therefore, the programs should be patient and responsive even though they receive many unnecessary messages about the status of the bounty or the report.&lt;/p&gt;
+
+&lt;p&gt;Bug bounty programs may pay at triage to decrease the number of unnecessary messages and therefore save time and focus on the more critical reports. Another method for saving time is to use the platforms’ triage services. It is especially beneficial for big security teams, as they receive many inapplicable reports.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Treatment&lt;/strong&gt;&lt;br /&gt;
+  Bug hunting is not easy since the hunters compete with the other hunters, black-hat hackers, and the internal security teams. When they find some vulnerabilities after that competition, they contribute to companies’ security in a unique way as they see what is overlooked. Due to the importance of the bug hunters’ contribution, the bug bounty programs should treat the hunters with respect. Public testimonials, job offers, and invitations to the company events are some ways to show the value of the hunter.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h1&gt;
+&lt;p&gt;This blog post series aims to have a better bug bounty ecosystem. The bug bounty programs are playing a critical role in that ecosystem. The points mentioned above may help programs have a more successful experience. Even if some topics may not suit every program, I believe the programs will see the benefits of applying most of them!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks for their support on this blog post&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;https://twitter.com/berkcgoksel&quot;&gt;Berk Cem Göksel&lt;/a&gt;&lt;/p&gt;</content><author><name>Samet SAHIN</name><email>sametsahinnet@gmail.com</email></author><category term="bug bounty" /><category term="best bug bounty programs" /><category term="bug hunter" /><category term="recommendations" /><summary type="html">Bug Bounty Ecosystem - Recommendations to bug bounty programs from a bug hunter's perspective.</summary></entry><entry><title type="html">What do the top bug hunters find?</title><link href="http://localhost:4000/posts/bug-bounty-top-hackers/" rel="alternate" type="text/html" title="What do the top bug hunters find?" /><published>2021-03-06T00:00:00+00:00</published><updated>2021-03-06T00:00:00+00:00</updated><id>http://localhost:4000/posts/bug-bounty-top-hackers</id><content type="html" xml:base="http://localhost:4000/posts/bug-bounty-top-hackers/">&lt;style type=&quot;text/css&quot;&gt;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 80px auto;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+&lt;/style&gt;
+
+&lt;h2 id=&quot;the-reason-of-the-analysis&quot;&gt;&lt;strong&gt;The reason of the analysis&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;There are many successful bug hunters on the bug bounty platforms and most beginners want to achieve that level of success however settle for low impact findings as they aim to find vulnerabilities using certain methods. For most beginners, a better approach would be to analyze what the top bug hunters find and how to build on top of the know-how and the methods used by bug hunters of more experience. This is why I decided to make a simple analysis with the public “2019 Year in Reviews” and “2020 Year in Reviews” then, I interpreted the results. The analysis is based on the top 1000 hackers who have public reviews (2019) and the top 100 hackers who have public reviews (2020). The results are not the data of all users of the bug bounty platforms.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1 id=&quot;results-of-the-analysis&quot;&gt;Results of the analysis&lt;/h1&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+	.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 0px solid #fff;
+}  
+
+.flex-child:first-child {
+    margin-right: 5px;
+} 
+&lt;/style&gt;
+
+&lt;p&gt;&lt;b&gt;The most reported vulnerabilities:&lt;/b&gt;&lt;/p&gt;
+&lt;div class=&quot;container flex-container&quot;&gt;
+  &lt;div class=&quot;flex-child&quot; id=&quot;chart1&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;flex-child&quot; id=&quot;chart2&quot;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/apexcharts/1.4.6/apexcharts.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script id=&quot;INLINE_PEN_JS_ID&quot;&gt;
+    var options = {
+  series: [1105, 836, 586, 538, 521, 497,  211, 170, 136, 500],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:&quot;2019&quot;,
+  	align:&quot;center&quot;,
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Cross-Site Scripting (XSS)','Information Disclosure', 'Privilege Escalation', 'Improper Access Control', 'IDOR', 'Improper Authentication', 'Open Redirect', 'CSRF', 'SSRF', 'Others'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector(&quot;#chart1&quot;), options);
+chart.render();
+&lt;/script&gt;
+
+&lt;script id=&quot;INLINE_PEN_JS_ID&quot;&gt;
+    var options = {
+  series: [1210, 823, 720, 466, 447, 412, 366, 75, 70, 70, 61, 58, 56, 51, 140],
+  chart: {
+    width: 400,
+    type: 'pie' }, 
+  title: {
+  	text:&quot;2020&quot;,
+  	align:&quot;center&quot;,
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+  labels: ['Cross-Site Scripting (XSS)','Information Disclosure', 'Improper Authentication', 'Improper Access Control', 'IDOR', 'Privilege Escalation', 'Information Exposure Through an Error Message', 'Open Redirect', 'Path Traversal', 'Server-Side Request Forgery', 'SQL Injection', 'Cross-Site Request Forgery (CSRF)', 'Violation of Secure Design Principles', 'Improper Authorization', 'Others'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350
+      } } }] };
+
+var chart = new ApexCharts(document.querySelector(&quot;#chart2&quot;), options);
+chart.render();
+  &lt;/script&gt;
+
+&lt;h2 id=&quot;the-most-reported-bug-xss&quot;&gt;The most reported bug: XSS&lt;/h2&gt;
+&lt;p&gt;Cross-Site Scripting also known as XSS, is a vulnerability that allows an attacker to &lt;strong&gt;inject HTML and JavaScript&lt;/strong&gt; code when the user input is not sanitized. It is the most popular and &lt;strong&gt;number one most reported bug on the bug bounty platforms&lt;/strong&gt;. Because it is easy to find, bypass, and exploit. Most of the top bug hunters have custom scanners to find XSS vulnerabilities. If you prefer to find XSS manually, the optimal way to doing that is by looking at the &lt;strong&gt;source code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;While everyone has their own way of bounty hunting, I have a few suggestions that I would like to share. Making a difference between other researchers and scanners is simple, work to &lt;strong&gt;improve the impact of XSS&lt;/strong&gt;. After, write a &lt;strong&gt;working exploit&lt;/strong&gt;. For example, if there is a CSRF-token in the response, select the tag which includes the token. Then, write an exploit that submits a password change request with the collected CSRF token. If you are good with &lt;strong&gt;JavaScript&lt;/strong&gt;, you can increase the severity from P3 to P2 and even to P1.&lt;/p&gt;
+
+&lt;h2 id=&quot;all-roads-lead-to-information-disclosures-and-leaks&quot;&gt;All roads lead to information disclosures and leaks!&lt;/h2&gt;
+&lt;p&gt;Information Disclosure is a collection of non-expected (in some cases, expected) behavior while &lt;strong&gt;securing&lt;/strong&gt; sensitive data. There is a lot of types of Information Disclosure issues. Generally, if you see data that you are not supposed to be, there is an information disclosure (leakage, exposure) vulnerability. For example, while &lt;strong&gt;fuzzing&lt;/strong&gt; the directories, you may find a file that includes confidential data. Or, while you are visiting a friend’s profile, you may retrieve their &lt;strong&gt;PII (Personally Identifiable Information) in the response&lt;/strong&gt;. You can automate all the unauthenticated services to find information disclosures. Remember, the most critical information disclosures are often discovered by understanding the &lt;strong&gt;application logic&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;uid0root-gid0root-groups0root&quot;&gt;uid=0(root) gid=0(root) groups=0(root)&lt;/h2&gt;
+&lt;p&gt;Privilege Escalation is a weakness that permits attackers to perform an action that they are not authorized to. It occurs in the applications’ workflow. For example, a user may ban the admin from the project, and the system assigns the user as a new admin. In this case, the user could escalate their privileges with the &lt;strong&gt;business logic error in the flow&lt;/strong&gt;. The scanners cannot find the issue with the default settings. Thus, the privilege escalations need a &lt;strong&gt;hacker mindset&lt;/strong&gt; to find. Most of the top bug hunters read the &lt;em&gt;freaking&lt;/em&gt; manual before testing, especially necessary for API security testing. Reading documentation is a &lt;strong&gt;very effective&lt;/strong&gt; (and boring) way of understanding how the application works. With this method, you may able to find privilege escalation weaknesses &lt;strong&gt;easily&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;improper-access-control-weaknesses&quot;&gt;Improper access control weaknesses&lt;/h2&gt;
+&lt;p&gt;Improper Access Control weaknesses occur when the application does not &lt;strong&gt;restrict or incorrectly restricts access to a resource&lt;/strong&gt; from an unauthorized actor. For example, a user is not able to access functionality to which they are not authorized, &lt;strong&gt;with a browser&lt;/strong&gt;. However, the user can access to the administrative functions &lt;strong&gt;with the API&lt;/strong&gt;, without any control or broken controls. This method is a common way to find this weakness. Modern applications prefer client-side mechanisms because it is faster than server-side but at the same time easier to bypass. I suggest you think about the &lt;strong&gt;different access control methods&lt;/strong&gt; between the server and the client.&lt;/p&gt;
+
+&lt;h2 id=&quot;insecure-direct-object-reference&quot;&gt;Insecure direct object reference&lt;/h2&gt;
+&lt;p&gt;Insecure Direct Object Reference (IDOR) is a type of Broken Access Control vulnerability. The problem occurs when the application does not check a user from &lt;strong&gt;gaining access to another user’s data&lt;/strong&gt; by modifying the identity reference. For example, consider a function that accesses the customer page. When you access the page; you see an ID at the query. If a user changes the ID and could get the data of the modified ID, then there is an IDOR vulnerability that leads to horizontal privilege escalation. &lt;strong&gt;There is no limit to this vulnerability&lt;/strong&gt;. Mostly if there is an object referenced with an ID, you may find an IDOR there. IDOR is the &lt;strong&gt;favorite vulnerability&lt;/strong&gt; of many researchers.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-redirect&quot;&gt;Open redirect&lt;/h2&gt;
+&lt;p&gt;Open Redirect is &lt;strong&gt;harmless&lt;/strong&gt; in most cases. But that does not mean all instances of open redirect vulnerabilities are harmless. If you have an open redirect at &lt;strong&gt;SSO (Single Sign-On) or Oauth&lt;/strong&gt; mechanism, you can &lt;strong&gt;steal the authentication code&lt;/strong&gt; of the victim. If you do not want to report a simple open redirect, you can &lt;strong&gt;keep it for an SSRF whitelist bypass or a CSP bypass&lt;/strong&gt;. Open Redirect can be a good part of a &lt;strong&gt;bug chain&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;cross-site-request-forgery&quot;&gt;Cross-Site request forgery&lt;/h2&gt;
+&lt;p&gt;Cross-Site Request Forgery is used by attackers to send malicious requests from an authenticated user to a web application. The problem occurs when the application does not provide an anti-CSRF token or does not control the token for each request. The impact of CSRF &lt;strong&gt;depends on where the vulnerability&lt;/strong&gt;. CSRF vulnerability can lead to a &lt;strong&gt;one-click account takeover&lt;/strong&gt;. Such as, an attacker can change the password of your Twitter account with a one-click using this vulnerability. CSRF can be part of the turning Self-XSS into Good XSS. &lt;em&gt;Unfortunately&lt;/em&gt;, CSRF &lt;strong&gt;started to be killed&lt;/strong&gt; by browsers.&lt;/p&gt;
+
+&lt;h2 id=&quot;ssrf-knock-knock-who-is-there--its-me-169254169254&quot;&gt;SSRF: Knock knock who is there? -It’s me, 169.254.169.254&lt;/h2&gt;
+&lt;p&gt;Server Side Request Forgery (also known as SSRF) vulnerabilities allows an attacker to send malicious requests from the back-end server of a vulnerable web application. An SSRF vulnerability with the &lt;strong&gt;maximum impact might allow an attacker to read the internal files&lt;/strong&gt;. Additionally, with an SSRF, an attacker can &lt;strong&gt;scan ports (XSPA)&lt;/strong&gt;, &lt;strong&gt;grab the banners&lt;/strong&gt;, execute &lt;strong&gt;XSS&lt;/strong&gt; payloads, &lt;strong&gt;bypass host-based authentication controls&lt;/strong&gt;. Consider that there is an image fetching function. A user gives the URL, and the server brings the file. &lt;em&gt;“This is not a bug, this is a feature”&lt;/em&gt; so far. When the server tries to fetch the given unexpected URL (payload), the SSRF vulnerability occurs. There are some reasons why SSRF vulnerabilities are so popular. Such as, it is easy to exploit, easy to bypass, and easy to improve the impact with the protocols. But it is hard to find a parameter (endpoint) that is vulnerable to SSRF attacks because it needs a function that can send requests with the given input. Earning bounties with the SSRF requires &lt;strong&gt;keeping an eye open&lt;/strong&gt; because SSRF vulnerabilities are rare.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Submission severity:&lt;/b&gt;&lt;/p&gt;
+&lt;div class=&quot;container flex-container&quot;&gt;
+  &lt;div class=&quot;flex-child&quot; id=&quot;chart3&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;flex-child&quot; id=&quot;chart4&quot;&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script id=&quot;INLINE_PEN_JS_ID&quot;&gt;
+    var options = {
+  series: [774, 1765, 3216, 2416],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:&quot;2019&quot;,
+  	align:&quot;center&quot;,
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Critical', 'High', 'Medium', 'Low'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector(&quot;#chart3&quot;), options);
+chart.render();
+ &lt;/script&gt;
+
+&lt;script id=&quot;INLINE_PEN_JS_ID&quot;&gt;
+    var options = {
+  series: [738, 1817, 2757, 2009],
+  chart: {
+    width: 400,
+    type: 'pie' },
+  title: {
+  	text:&quot;2020&quot;,
+  	align:&quot;center&quot;,
+  	margin: 0,
+    offsetX: 0,
+    offsetY: 0,
+    floating: false,
+    style: {
+      fontSize:  '24px',
+      fontWeight:  'bold',
+      color:  '#000'
+    },
+  },
+  legend: {
+    show: false
+  },
+
+  labels: ['Critical', 'High', 'Medium', 'Low'],
+  responsive: [{
+    options: {
+      chart: {
+        width: 350 },
+
+      legend: {
+        position: 'bottom' } } }] };
+
+var chart = new ApexCharts(document.querySelector(&quot;#chart4&quot;), options);
+chart.render();
+  &lt;/script&gt;
+
+&lt;h2 id=&quot;unfortunately-this-was-submitted-previously-by-another-researcher&quot;&gt;Unfortunately, this was submitted previously by another researcher.&lt;/h2&gt;
+&lt;p&gt;Duplicate reports are the bug hunters’ &lt;strong&gt;nightmare&lt;/strong&gt;. Consider that after working for hours, you finally find a vulnerability. You report it and wait for it to be triaged. Then you get an email that says: &lt;em&gt;“Unfortunately, the vulnerability was submitted previously by another researcher.”&lt;/em&gt;. As a consequence, &lt;strong&gt;everything goes to another researcher&lt;/strong&gt;, &lt;strong&gt;except&lt;/strong&gt; one thing: &lt;strong&gt;The experience&lt;/strong&gt;. All the experiences that you have, make you a &lt;strong&gt;better researcher&lt;/strong&gt;. Yes, it does!&lt;/p&gt;
+
+&lt;p&gt;As a result of this analysis, I saw that &lt;strong&gt;an important percentage of reports are duplicate&lt;/strong&gt; even for the top 100 researchers. The duplicate is just a warning that says you should &lt;strong&gt;find unique bugs or be faster&lt;/strong&gt;. Learn how to live with them, because they will be always there.&lt;/p&gt;
+
+&lt;h2 id=&quot;urgent-this-bug-is-critical&quot;&gt;URGENT!!! This bug is critical!&lt;/h2&gt;
+&lt;p&gt;The majority of valid bugs have &lt;strong&gt;Medium or Low&lt;/strong&gt; severity. To be honest, if you think the bug hunters &lt;strong&gt;hack&lt;/strong&gt; all companies, you should change your understanding of the word “hacking”. In my opinion, finding an Open Redirect bug, not mean hacking the company. Only a minority of valid bugs have &lt;strong&gt;High or Critical&lt;/strong&gt; severity. Finding a critical vulnerability depends on a &lt;strong&gt;comprehensive understanding&lt;/strong&gt; of how the application works or depends on &lt;strong&gt;unusual techniques&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;signal-and-impact&quot;&gt;Signal and Impact&lt;/h2&gt;
+&lt;p&gt;In my opinion, the signal and the impact stats is what separates successful hunters from the rest. Keep your signal high with &lt;strong&gt;valid reports&lt;/strong&gt;. Then, keep your impact high with the &lt;strong&gt;vulnerability chains&lt;/strong&gt;, and focus on &lt;strong&gt;important functions&lt;/strong&gt; of the application.&lt;/p&gt;
+
+&lt;h2 id=&quot;collaboration&quot;&gt;Collaboration&lt;/h2&gt;
+&lt;p&gt;Sometimes a bug hunter sticks with a vulnerability and usually cannot find a way to exploit or improve the impact. The best thing to do at moments like this is to collaborate. If you are looking for a hunter to collaborate, you can use &lt;a href=&quot;https://findhunters.com/&quot;&gt;https://findhunters.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;the-recipe&quot;&gt;The Recipe…&lt;/h1&gt;
+&lt;p&gt;My four year experience in bounty hunting has taught me that bug bounty becomes easier with the following recipe:  &lt;br /&gt;&lt;br /&gt;
+&lt;b style=&quot;color:red&quot;&gt;Enumeration + Fuzzing + Collaborate + to understand the application = Bounty&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Enumerate&lt;/strong&gt;, for finding unusual applications and services.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Understand the application&lt;/strong&gt;, to find different ways to increase the impact.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Collaborate&lt;/strong&gt;, for learning from different approaches.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Fuzz&lt;/strong&gt;, for identifying unusual behaviors of the application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks for their support on this blog post&lt;/strong&gt;&lt;br /&gt;
+Berk Cem Göksel (https://twitter.com/berkcgoksel)&lt;br /&gt;
+Evren Yalçın (https://twitter.com/evrnyalcin)   &lt;br /&gt;
+Mert Taşçı (https://twitter.com/mertistaken) &lt;br /&gt;
+Dr. Süleyman Özarslan (https://twitter.com/su13ym4n)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;br /&gt;
+https://blog.convisoappsec.com/en/privilege-escalation-how-it-can-affect-application-security/
+https://blog.detectify.com/2019/01/10/what-is-server-side-request-forgery-ssrf/
+https://capec.mitre.org/data/definitions/233.html
+https://cwe.mitre.org/data/definitions/284.html
+https://hackerone.com/reports/816143
+https://owasp.org/www-community/attacks/csrf
+https://owasp.org/www-community/attacks/Server_Side_Request_Forgery
+https://portswigger.net/web-security/access-control
+https://portswigger.net/web-security/access-control/idor
+https://portswigger.net/web-security/csrf
+https://portswigger.net/web-security/ssrf
+https://www.acunetix.com/blog/articles/server-side-request-forgery-vulnerability/
+https://www.bugcrowd.com/blog/how-to-find-idor-insecure-direct-object-reference-vulnerabilities-for-large-bounty-rewards/
+https://www.hackerone.com/blog/hackerone-top-10-most-impactful-and-rewarded-vulnerability-types
+https://www.hackerone.com/top-10-vulnerabilities
+https://www.immuniweb.com/vulnerability/improper-access-control.html
+https://www.netsparker.com/blog/web-security/cross-site-scripting-xss/
+https://www.netsparker.com/blog/web-security/information-disclosure-issues-attacks/
+https://www.netsparker.com/blog/web-security/owasp-top-10/
+https://www.netsparker.com/blog/web-security/same-site-cookie-attribute-prevent-cross-site-request-forgery/
+https://www.netsparker.com/blog/web-security/server-side-request-forgery-vulnerability-ssrf/&lt;/p&gt;</content><author><name>Samet SAHIN</name><email>sametsahinnet@gmail.com</email></author><category term="bug bounty" /><category term="How to get started in bug bounty" /><category term="bug hunter" /><category term="top researchers" /><category term="best bug hunters" /><summary type="html">Bug Bounty Ecosystem - Recommendations to bug bounty hunters and analysis of public year-in-reviews on HackerOne.</summary></entry></feed>
