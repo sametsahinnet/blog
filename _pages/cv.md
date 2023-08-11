@@ -18,10 +18,10 @@ Education
 Work experience
 ======
 
-* July 2023 ~ Present: DefensX
+* July 2023 ~ Present: [DefensX](https://defensx.com/)
   - Product Strategy Intern
 
-* March 2022 ~ May 2023: TurgenSec
+* March 2022 ~ May 2023: TurgenSec (Acquired)
   - Cyber Security Analyst
 
 * March 2017 ~ March 2022 : Hackerone [Profile](https://hackerone.com/samet)
