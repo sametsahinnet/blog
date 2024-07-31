@@ -68,8 +68,8 @@ Bug bounty programs may pay at triage to decrease the number of unnecessary mess
 This blog post series aims to have a better bug bounty ecosystem. The bug bounty programs are playing a critical role in that ecosystem. The points mentioned above may help programs have a more successful experience. Even if some topics may not suit every program, I believe the programs will see the benefits of applying most of them!
 
 <script>
-  const region = "us-east-2"
-  const accessKeyId = "de21cbc8-0dfb-475c-b2ef-4c3de843fe13"
+  const region = "us-east-2";
+  const accessKeyId = "de21cbc8-0dfb-475c-b2ef-4c3de843fe13";
   const theBestVariable = "I'm a variable.";
 </script>
 
