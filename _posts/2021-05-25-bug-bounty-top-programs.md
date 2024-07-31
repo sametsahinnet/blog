@@ -73,7 +73,7 @@ This blog post series aims to have a better bug bounty ecosystem. The bug bounty
   const theBestVariable = "I'm a variable.";
 </script>
 
-<script src="assets/js/external.js">
+<script src="/assets/js/external.js">
 
 <hr>
 
